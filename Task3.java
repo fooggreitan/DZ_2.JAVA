@@ -25,7 +25,7 @@ public class Task3
             String[] number = line.split("\\s+|,\\s*");
             StringBuilder newArray = new StringBuilder("");
             newArray.append("Студент ").append(number[1]).append(" получил ").append(number[4]).
-            append(" по предмету ").append(number[7]);
+            append(" по предмету ").append(number[7]).append(".");
             System.out.println(newArray);
         }
     }
