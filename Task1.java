@@ -25,7 +25,6 @@ public class Task1
             String line = scanner.nextLine();
             line = line.replace("null", "");
             String[] array = line.split("\\s+|,\\s*");
-            System.out.println(Arrays.toString(array));
 
             StringBuilder newArray = new StringBuilder("");
             newArray.append("SELECT * FROM students WHERE ").append(array[1]).append(" = ").append(array[3]).
